@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -35,4 +37,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.leftPlane {
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  float: left;
+  border: 1px solid black;
+}
+
+.rightPlane, .concretenessPlane{
+  box-sizing: border-box;
+  height: 50%;
+  width: 50%;
+  float: left;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+#myTextArea {
+  height: 90%;
+  width: 90%;
+}
+
+#root, html, body {
+  height: 100%;
+  width: 100%;
 }
